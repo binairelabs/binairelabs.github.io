@@ -1,0 +1,38 @@
+.multi-info-holder .info-header {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family: Heavy;
+}
+.multi-info-holder .info-row {
+    border-top: 1px solid rgba(5, 5, 5, 0.151);
+    display: inline-flex;
+    width: 100%;
+    font-family: Light;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.multi-info-holder .info-row .info-row-txt-1 {
+    flex: 2.5;
+    padding: 5px;
+    text-transform: capitalize;
+    font-family: Heavy;
+    color: rgba(5, 5, 5, 0.6);
+}
+.multi-info-holder .info-row .info-row-txt-2 {
+    flex: 8;
+    padding: 5px;
+}
+.multi-info-holder .info-row .info-img {
+    width: 100px;
+}
+.info-inner-btn {
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    /* background-color: transparent; */
+    padding: 0;
+}
+.btn.multi-info-ending-btn {
+    margin-top: 35px;
+    background-color: transparent;
+    padding: 0;
+}

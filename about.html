@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Binaire Private Limited</title>
+        <!-- <link rel="stylesheet" type="text/css" href="about_binaire.css"> -->
+        <link rel="stylesheet" type="text/css" href="multi_info.css">
+        <link rel="stylesheet" type="text/css" href="btn.css">
+        <link rel="stylesheet" type="text/css" href="fonts.css">
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="project_grid.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <style>
+            .navbar a {
+                color: black
+            }
+        </style>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <div class="navbar" style="position: absolute; top: 0; z-index: 1; color: black;">
+            <div class="logo">
+                <div class="logo-img"></div>
+                <a href="index.html"><div class="logo-text">Binaire</div></a>
+            </div>
+            <div class="navbar-container">
+                <div class="nav-item">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-item">
+                    <a href="projects.html">Projects</a>
+                </div>
+                <div class="nav-item">
+                    <a href="research.html">Research</a>
+                </div>
+                <div class="nav-item">
+                    <a href="mailto:BinaireLabs@gmail.com" target="_blank">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- about timeline -->
+        <section class="multi-info-holder" style="margin-top: 100px;">
+            <div class="info-header">About Binaire</div>
+            <div class="info-row" style="border-top: none; margin-top: 30px">
+                <div class="info-row-txt-1">About</div>
+                <div class="info-row-txt-2">
+                    Binaire Pvt. Ltd. is a software technology startup with forte in Artificial Intelligence, Still image and Video processing, Drone photography and manipulation, Facial Feature recognition, Games & Game Engine development, Virtual Reality and Augmented Reality.
+                    <br>
+                    <br>
+                    Binaire’s main strength is its ability to innovate and capitalize on use of proven & experimental technologies. We leverage our cross-technology knowledge base and develop innovative use cases that offer tremendous opportunity to create wealth, sustainability and growth. 
+                    <br>
+                    <br>
+                    Incorporated in 2019, Binaire is in advance stage of filing a patent related with color profiling.
+                </div>
+            </div>
+            <div class="info-row">
+                <div class="info-row-txt-1">Mission</div>
+                <div class="info-row-txt-2">Technology as an enabler for all</div>
+            </div>
+            <div class="info-row">
+                <div class="info-row-txt-1">Team</div>
+                <div class="inner-multi-info-holder" style="flex: 8">
+                    <div class="info-row" style="border-top: none;">
+                        <div class="info-row-txt-1">Executive Director</div>
+                        <div class="info-row-txt-2">
+                            Ankush Aggarwal
+                            <br>
+                            <a href="https://www.linkedin.com/in/ayush-aggarwal-2a332a103/" target="_blank">
+                                <button class="btn info-inner-btn">
+                                    LinkedIn Profile
+                                    <img src="assets/icons/right_caret.png">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-row-txt-1">Director Technical</div>
+                        <div class="info-row-txt-2">
+                            Ayush Aggarwal
+                            <br>
+                            <a href="https://www.linkedin.com/in/ankush-aggarwal-a338b4a/" target="_blank">
+                                <button class="btn info-inner-btn">
+                                    LinkedIn Profile
+                                    <img src="assets/icons/right_caret.png">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-row-txt-1">Director Finance/Legal/HR</div>
+                        <div class="info-row-txt-2">Lt. Col. R.M. Aggarwal (Retired from Indian Army and ONGCL)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="website-footer" style="margin-top: 350px; margin-bottom: 80px">
+            <div class="footer-logo">
+                <div class="footer-logo-img"></div>
+                <div class="footer-logo-txt">Binaire Pvt. Ltd. <br><br>Sainik Farms, New Delhi,<br>India.</div>
+            </div>
+            <div class="footer-panel">
+                <div class="footer-panel-column">
+                    <div class="footer-panel-column-header">Binaire</div>
+                    <a href="about.html"><div class="footer-panel-column-txt">About</div></a>
+                    <a href="about.html"><div class="footer-panel-column-txt">Team</div></a>
+                    <a href="mailto:binairelabs@gmail.com"><div class="footer-panel-column-txt">Contact</div></a>
+                </div>
+                <div class="footer-panel-column">
+                    <div class="footer-panel-column-header">Work</div>
+                    <a href="projects.html"><div class="footer-panel-column-txt">Projects</div></a>
+                    <a href="research.html"><div class="footer-panel-column-txt">Research</div></a>
+                </div>
+                <div class="footer-panel-column">
+                    <div class="footer-panel-column-header">Legal</div>
+                    <a href="tou.pdf"><div class="footer-panel-column-txt">Terms of Use</div></a>
+                    <a href="pp.pdf"><div class="footer-panel-column-txt">Privacy Policy</div></a>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-txt">Binaire Private Limited - All Rights Reserved.</div>
+        <script>
+
+            // var navbar = document.querySelector('.navbar');
+            // navbar.style.width = `${window.innerHeight}px`;
+            // navbar.style.width = `100%`;
+            // navbar.style.marginLeft = `${window.innerHeight / 2}px`;
+
+            console.log(window.innerWidth + " " + window.innerHeight);
+
+            var infoHolderWidth;
+
+            if (window.innerWidth > window.innerHeight) {
+                console.log('device in landscape');
+                infoHolderWidth = window.innerHeight*1.1;
+            } else {
+                console.log('device in portrait');
+                infoHolderWidth = window.innerWidth;
+            }
+
+            var infoHolder = document.querySelector('.multi-info-holder');
+            infoHolder.style.width = `${infoHolderWidth}px`;
+            infoHolder.style.marginLeft = `${(window.innerWidth - infoHolderWidth) / 2}px`;
+
+            document.write(
+              '<script src="http://' +
+                (location.host || '${1:localhost}').split(':')[0] +
+                ':${2:35729}/livereload.js?snipver=1"></' +
+                'script>'
+            );
+          </script>
+    </body>
+</html>

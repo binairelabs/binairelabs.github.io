@@ -1,0 +1,63 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+#p-large-1-row-1 {
+    grid-area: p-large-1-row-1
+}
+#p-large-1-row-1 .card-img-container {
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#p-small-2-row-1 {
+    grid-area: p-small-2-row-1;
+}
+#p-small-2-row-1 .card-img-container {
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#p-small-3-row-1 {
+    grid-area: p-small-3-row-1
+}
+#p-small-3-row-1 .card-img-container {
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#p-large-1-row-2 {
+    grid-area: p-large-1-row-2
+}
+#p-large-1-row-2 .card-img-container {
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#p-large-2-row-2 {
+    grid-area: p-large-2-row-2
+}
+#p-large-2-row-2 .card-img-container {
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.global-grid-container {
+    position: relative;
+    margin-top: 100px;
+    top: 100%;
+    display: grid;
+    grid-template-areas:
+    'p-large-1-row-1 p-large-1-row-1 p-small-2-row-1 p-small-3-row-1'
+    'p-large-1-row-2 p-large-1-row-2 p-large-2-row-2 p-large-2-row-2';
+    grid-gap: 25px;
+    background-color: transparent;
+    /* padding: 10px; */
+    width: calc(100% - 80px);
+    margin-left: 40px;
+}

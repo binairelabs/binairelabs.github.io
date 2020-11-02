@@ -1,0 +1,71 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    /* background-color: black; */
+    background-image: url('assets/gradients/openai-gradient\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.header-width-constraint {
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    background-image: none;
+}
+.header-container {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 500px;
+}
+.header-title {
+    font-family: Heavy;
+    font-size: 38px;
+}
+.header-sub-title {
+    margin-top: 25px;
+    font-family: Light;
+}
+.header-container .btn {
+    margin-top: 40px;
+}
+
+.content {
+    color: white;
+    top: 100%;
+}
+
+.btn.section-ending-btn {
+    margin-top: 100px;
+}
+
+.dev-timeline {
+    margin-top: 100px;
+    position: relative;
+    width: calc(100% - 80px);
+    margin-left: 40px;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 100px;
+    width: calc(100% - 80px);
+    margin-left: 40px;
+}
+.timeline .info-header {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family: Heavy;
+}
+.timeline-img {
+    margin-left: 10%;
+    width: 80%;
+    object-fit: contain;
+}

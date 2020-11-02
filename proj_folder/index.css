@@ -1,0 +1,87 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.background-gradient {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-image: url('../assets/gradients/openai-gradient\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 260px 0 250px 0;
+}
+header {
+    position: relative;
+    width: 100%;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.header-container {
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    display: inline-flex;
+}
+.header-container-txt {
+    flex: 2;
+}
+    .project-name {
+        position: relative;
+        font-size: 40px;
+        font-family: Heavy;
+    }
+    .project-sub-text {
+        position: relative;
+        margin-top: 20px;
+        width: 85%;
+        font-family: Light;
+        font-size: 18px;
+    }
+    .header-container-txt .btn {
+        margin-top: 20px;
+    }
+    .date {
+        position: absolute;
+        margin-top: 160px;
+        font-family: Light;
+    }
+.header-container-img {
+    flex: 2;
+    /* background-color: blue; */
+    object-fit: contain;
+    object-position: right;
+}
+.header-img {
+    width: 400px;
+    margin-left: calc(100% - 400px);
+}
+
+.content-section {
+    position: relative;
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    display: flex;
+}
+.content-index {
+    flex: 2;
+    font-family: Light;
+}
+.content-article {
+    flex: 8;
+}
+.content-text-para-container {
+    display: inline-flex;
+}
+.content-para {
+    flex: 8;
+    width: 80%;
+    font-family: Light;
+}
+.content-para-secondary {
+    flex: 2;
+    font-family: Light;
+}
+.content-img {
+    width: 100%;
+}
